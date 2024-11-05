@@ -1,4 +1,4 @@
-#import "@preview/showybox:2.0.1": showybox
+#import "@preview/showybox:2.0.3": showybox
 
 
 #let der(x) = math.accent(x, sym.dot)
@@ -52,10 +52,10 @@
 // when aligned
 #let whena = [$comma &space$]
 
-#let where = [$, " ""где "$]
+#let where = [$, " ""где"$]
 
 // where aligned
-#let wherea = [$, &" ""где "$]
+#let wherea = [$, &" ""где"$]
 
 #let matdet(..content) = math.mat(delim: "|", ..content)
 
